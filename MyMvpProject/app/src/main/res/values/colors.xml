@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">@color/color_sky_blue</color>
+    <color name="colorAccent">@color/black</color>
+
+    <!-- gray scale -->
+    <color name="white">#FFFFFF</color>
+    <color name="gray_light">#DBDBDB</color>
+    <color name="gray">#939393</color>
+    <color name="gray_dark">#5F5F5F</color>
+
+    <color name="black">#000</color>
+    <color name="app_black">#1c1c1c</color>
+    <color name="pure_black">#000</color>
+    <color name="mid_black">#292828</color>
+    <color name="charcoal_grey">#333c40</color>
+    <color name="transparent">#0000</color>
+
+    <color name="button_color_normal">@color/colorPrimary</color>
+    <color name="button_color_pressed">@color/color_sky_blue</color>
+
+    <!--Church-->
+    <color name="amount_left">#e04747</color>
+    <color name="amoumt_gained">#28c228</color>
+    <color name="color_dark_text">#3f4d56</color>
+    <color name="color_normal_text">#595959</color>
+    <color name="color_hint_text">#9c9c9c</color>
+    <color name="color_sky_blue">#1b9fda</color>
+    <color name="color_navy_blue">#25469b</color>
+    <color name="color_grey">#f0f0f0</color>
+    <color name="viewBackGround">#B3d8e1e6</color>
+    <color name="color_black">#0c0c0c</color>
+    <color name="color_green">#2e9e2e</color>
+    <color name="color_orange">#F5A623</color>
+    <color name="color_red">#e04747</color>
+    <color name="drawer_background">#4c4c4c</color>
+    <color name="drawer_background_dark">#444444</color>
+    <color name="image_layer_color">#B3032647</color>
+    <color name="doantionCalculatorBgColor">#d8e1e6</color>
+    <color name="dark_green">#006400</color>
+    <color name="dark_red">#8B0000</color>
+    <color name="color_status_red">#CE002D</color>
+    <color name="line_color">#9c9c9c</color>
+    <color name="lineBackground">#d8d8d8</color>
+    <color name="card_text">#37474f</color>
+
+    <color name="selected_indicator">#e04747</color>
+    <color name="unSelected_indicator">#ffffff</color>
+    <color name="gradient_start">#1c80df</color>
+    <color name="gradient_end">#7cd1f5</color>
+    <color name="thumb_color">#008bb2</color>
+
+
+</resources>

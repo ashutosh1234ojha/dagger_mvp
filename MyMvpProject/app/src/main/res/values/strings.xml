@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">MyMvpProject</string>
+
+    <!-- <string name="google_maps_key">AIzaSyARJgNF9V7vEvh1tcYkINvjCWPEn2g3BJo</string>-->
+    <string name="msg_wifi_enabled">Wifi enabled</string>
+    <string name="msg_mobile_data_enabled">Mobile data enabled</string>
+    <string name="msg_not_connected_to_internet">Not connected to Internet</string>
+
+    <string name="log_fcm_message_id">"FCM Message Id: "</string>
+    <string name="log_fcm_notification_message">"FCM Notification Message: "</string>
+    <string name="log_fcm_data">"FCM Data Message: "</string>
+    <string name="log_fcm_data_message">"FCM Data Message:(TA)G "</string>
+    <string name="text_ok">OK</string>
+    <string name="text_exit">Exit</string>
+    <string name="text_retry">Retry</string>
+    <string name="session_expired">Session expired.</string>
+    <string name="loading">Loading…</string>
+    <string name="text_yes">Yes</string>
+    <string name="text_no">No</string>
+
+    <!-- Image Chooser -->
+    <string name="text_cancel">Cancel</string>
+    <string name="text_camera">Camera</string>
+    <string name="text_setting">Settings</string>
+    <string name="text_gallery">Gallery</string>
+    <string name="text_multiple">Multiple</string>
+    <string name="text_choose_image">Choose Image</string>
+    <string name="permission_camera_storage_msg">Permissions are required for camera &amp; storage</string>
+    <string name="permission_camera_storage_denied_msg">Permissions denied. Please grant permission for camera &amp; storage in setting</string>
+
+    <!--Error-->
+    <string name="error_email_field_empty">Please enter email address</string>
+    <string name="error_invalid_email">Please enter valid email address</string>
+    <string name="error_password_field_empty">Please enter password</string>
+    <string name="PasswordShouldNotContainSpace">Password should not contain space</string>
+    <string name="error_confirm_password_field_empty">Please enter confirm password</string>
+    <string name="PasswordContainAtleastSixChar">Password length should be of 6 characters minimum</string>
+    <string name="error_phone_number_field_empty">Please enter phone number</string>
+    <string name="error_invalid_phone_number">Please enter valid phone number</string>
+    <string name="error_first_name_field_empty">Please enter First name</string>
+    <string name="error_name_field_empty">Please enter name</string>
+    <string name="error_last_name_field_empty">Please enter Last name</string>
+    <string name="error_name_two_character_long">Name must contain at least two characters</string>
+    <string name="error_first_name_two_character_long">First name must contain at least two characters</string>
+    <string name="error_last_name_two_character_long">Last name must contain at least two characters</string>
+    <string name="error_name_special_number_character">Name cannot contain number &amp; special characters</string>
+    <string name="error_first_name_special_number_character">First name cannot contain number &amp; special characters</string>
+    <string name="error_last_name_special_number_character">Last name cannot contain number &amp; special characters</string>
+    <string name="error_password_mismatch">Password mismatch!</string>
+    <string name="error_no_files_added">No files added</string>
+    <string name="error_device_not_supported">This device is not supported</string>
+    <string name="error_internet_not_connected">Please check your internet connection </string>
+    <string name="error_fb_login_failed">Facebook Login failed!!</string>
+    <string name="error_not_a_valid_image_file">File is not a valid image</string>
+    <string name="PleaseEnterConfrimPassword">Please enter confirm password</string>
+    <string name="PasswordDoesntMatch">Password doesn\'t match</string>
+    <string name="PleaseEnterFirstName">Please enter first name</string>
+    <string name="NameThreeCharLong">First name must be atleast 3 characters long</string>
+    <string name="LastNameThreeCharLong">Last name must be atleast 3 characters long</string>
+    <string name="NameCannotContainSpecialCharacters">Name cannot contain number and special characters</string>
+    <string name="more_than_one_space_error">Space is not allowed</string>
+    <string name="PleaseEnterLastName">Please enter last name.</string>
+    <string name="LastNameCannotContainSpecialChar">Last name cannot contain number,spaces and special characters</string>
+    <string name="PleaseEnterPhoneNo">Please enter phone number</string>
+    <string name="PhoneNoCannotStartFromZero">Phone number cannot start from zero</string>
+    <string name="PhoneLengthAtmostfifteen">Phone number length cannot be greater than 15 characters</string>
+    <string name="PhoneLengthAtleastSix">Phone number length should be atleast 6 characters</string>
+    <string name="PhoneLengthTenDigit">Phone number length should be of 10 digits</string>
+    <string name="PleaseEnterValidPhoneNo">Please enter valid phone number</string>
+
+    <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions</string>
+    <string name="title_settings_dialog">Permissions required</string>
+    <string name="select_address">Please select your address</string>
+    <string name="select_dob">Please select your date of birth</string>
+    <string name="oldAndNewPasswordCanNotBeSame">Old and new password can not be same</string>
+
+    <!--ERROR MESSAGES-->
+    <string name="remote_server_failed_error">Remote server failed to respond</string>
+    <string name="connection_timed_out_error">Connection timed out</string>
+    <string name="remote_server_could_not_respond">Remote server could not respond</string>
+    <string name="an_error_was_procured_while_parsing">An error was procured while parsing</string>
+    <string name="an_unexpected_error_occurred">An unexpected error occurred</string>
+    <string name="internet_connectivity_issue_text">Internet connectivity issue</string>
+    <string name="ssl_handshake_error">SSL handshake failed</string>
+    <string name="connection_refused_error">Connection was refused from server</string>
+    <string name="http_error">HTTP error occurred</string>
+    <string name="connection_reset_error">Connection reset by peer</string>
+    <string name="sync.error">Remote server failed to respond while syncing data</string>
+    <string name="some_error_occurred">Some error occurred</string>
+    <string name="touch.to.retry">Touch to retry</string>
+    <string name="unexpected_end_stream">Unexpected end of stream</string>
+    <string name="empty" translatable="false"> </string>
+    <string name="please_re_login_session_expired"><![CDATA[<b>Please re-login</b><br/>Your session has expired.]]></string>
+    <string name="sample_description">Lorem Ipsum is simply dummy text of printing  and typesetting industry Lorem Ipsum has  been the industry\'s standard dummy text.</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+</resources>

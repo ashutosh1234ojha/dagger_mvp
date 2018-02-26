@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_normal_text"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rlProfile"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/gray">
+
+        <ImageView
+            android:id="@+id/ivProfileImage"
+            android:layout_width="@dimen/drawer_image_dimens"
+            android:layout_height="@dimen/drawer_image_dimens"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/drawer_image_view_start_margin"
+           />
+
+        <TextView
+            android:id="@+id/tvDrawerUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/ivProfileImage"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_toEndOf="@+id/ivProfileImage"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Ashutosh ojha"
+            android:textSize="@dimen/font_large"
+            android:textAppearance="@style/CustomTextAppearance.LatoBold"
+            android:textColor="@color/white"
+            tools:ignore="MissingPrefix"/>
+
+        <TextView
+            android:id="@+id/tvEditProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDrawerUserName"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_toEndOf="@+id/ivProfileImage"
+            android:text="Profile"
+            android:gravity="start"
+            android:padding="@dimen/padding_normal"
+            android:textSize="@dimen/font_normal"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/color_navy_blue"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvHome"
+                style="@style/drawerTextView"
+                android:onClick="onClick"
+                android:text="home"
+                />
+
+            <TextView
+                android:id="@+id/tvNewRequest"
+                style="@style/drawerTextView"
+                android:onClick="onClick"
+                android:text="Users"
+                />
+
+            <TextView
+                android:id="@+id/tvNotification"
+                style="@style/drawerTextView"
+                android:onClick="onClick"
+                android:text="Notifications"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

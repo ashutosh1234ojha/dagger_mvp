@@ -1,0 +1,139 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_margin_top_normal">10dp</dimen>
+
+
+    <!-- font sizes -->
+    <dimen name="font_xxxlarge">35sp</dimen>
+    <dimen name="font_xxlarge">24sp</dimen>
+    <dimen name="font_xlarge">20sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_normal">14sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_xsmall">10sp</dimen>
+
+    <!-- typical spacing between two views -->
+    <dimen name="spacing_xhuge">70dp</dimen>
+    <dimen name="spacing_huge">60dp</dimen>
+    <dimen name="spacing_xxlarge">50dp</dimen>
+    <dimen name="spacing_xlarge">40dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_medium">20dp</dimen>
+    <dimen name="spacing_normal">14dp</dimen>
+    <dimen name="spacing_small">10dp</dimen>
+    <dimen name="spacing_xsmall">8dp</dimen>
+    <dimen name="spacing_xtiny">5dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_very_tiny">2dp</dimen>
+    <dimen name="spacing_smallest">1dp</dimen>
+
+    <!-- typical sizes of views -->
+    <dimen name="button_height_tall">60dp</dimen>
+    <dimen name="button_height_large">50dp</dimen>
+    <dimen name="button_height_normal">40dp</dimen>
+    <dimen name="button_height_short">35dp</dimen>
+    <dimen name="button_height_small">24dp</dimen>
+
+    <!--met editext-->
+    <dimen name="default_padding_top">8dp</dimen>
+    <dimen name="default_padding_bottom">8dp</dimen>
+    <dimen name="inner_padding_left">0dp</dimen>
+    <dimen name="inner_padding_right">0dp</dimen>
+    <dimen name="floating_label_text_size">12sp</dimen>
+    <dimen name="bottom_text_size">12sp</dimen>
+    <dimen name="inner_components_spacing">8dp</dimen>
+    <dimen name="bottom_ellipsis_height">4dp</dimen>
+    <dimen name="post_image_height">250dp</dimen>
+    <dimen name="empty_nav_view_height">25dp</dimen>
+
+
+    <!-- typical padding used -->
+    <dimen name="padding_large">10dp</dimen>
+    <dimen name="padding_normal">5dp</dimen>
+
+
+    <dimen name="margin_very_small">2dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_medium">15dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+    <dimen name="margin_xlarge">25dp</dimen>
+    <dimen name="margin_xxlarge">30dp</dimen>
+    <!--  drawer dimens-->
+    <dimen name="view_thickness">3dp</dimen>
+    <dimen name="drawer_item">45dp</dimen>
+    <dimen name="drawer_image_view_start_margin">29dp</dimen>
+    <dimen name="drawer_image_dimens">80dp</dimen>
+    <dimen name="drawer_text_start_margin">30dp</dimen>
+    <dimen name="notification_icon_dimens">15dp</dimen>
+    <dimen name="donation_calculator_height">80dp</dimen>
+    <dimen name="circle_diameter">150dp</dimen>
+    <dimen name="user_profile_image_dimens">130dp</dimen>
+    <dimen name="height_contact_item">100dp</dimen>
+
+    <dimen name="progress_bar">16dp</dimen>
+
+    <!--border_ -->
+    <dimen name="border_width">1dp</dimen>
+    <dimen name="border_radius">5dp</dimen>
+    <dimen name="border_radius_smaller">1dp</dimen>
+
+    <!--Card  -->
+    <dimen name="card_elevation">5dp</dimen>
+    <dimen name="card_width">50dp</dimen>
+    <dimen name="card_height">40dp</dimen>
+    <dimen name="card_date_height">40dp</dimen>
+    <dimen name="card_delete_height">40dp</dimen>
+    <dimen name="card_date_width">70dp</dimen>
+
+    <!--Progress bar -->
+    <dimen name="min_height">10dp</dimen>
+    <dimen name="max_height">10dp</dimen>
+
+    <!--Sign Up Image -->
+    <dimen name="image_height">100dp</dimen>
+    <dimen name="image_width">100dp</dimen>
+
+    <!--Request image -->
+    <dimen name="height_request_image">100dp</dimen>
+    <dimen name="height_request_image_larger">150dp</dimen>
+    <dimen name="width_request_image">100dp</dimen>
+
+    <!--Notification switch -->
+    <dimen name="width_switch">50dp</dimen>
+
+
+    <!--multiple images dimensions -->
+    <dimen name="height_request_image_large">300dp</dimen>
+    <dimen name="width_request_image_large">300dp</dimen>
+    <dimen name="height_page_indicator">10dp</dimen>
+    <dimen name="width_page_indicator">10dp</dimen>
+
+    <!--user profile  -->
+    <dimen name="height_image">165dp</dimen>
+    <dimen name="name_separator_height">50dp</dimen>
+    <dimen name="name_separator_width">10dp</dimen>
+    <dimen name="margin_top_profile">12dp</dimen>
+
+    <!--Request details -->
+    <dimen name="height_request_image_xlarge">165dp</dimen>
+
+    <!--Single button dialog -->
+    <dimen name="line_spacing_extra">4dp</dimen>
+
+
+    <!--progress  dialog -->
+    <dimen name="height_progress_dialog">70dp</dimen>
+    <dimen name="width_progress_dialog">70dp</dimen>
+    <dimen name="width_bar_progress_dialog">2dp</dimen>
+
+    <!--progress  dialog -->
+    <dimen name="height_summary_progress">40dp</dimen>
+
+
+    <!--Navigation drawer -->
+    <dimen name="height_drawer_profile">155dp</dimen>
+    <dimen name="margin_top_drawer_profile">17dp</dimen>
+</resources>

@@ -1,0 +1,255 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <style name="CustomTextAppearance" parent="android:TextAppearance">
+        <item name="android:textStyle">normal</item>
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/Dosis-Medium.ttf</item>
+    </style>
+    <!--Custom bold text appearance-->
+
+    <style name="CustomTextAppearance.SemiBold" parent="CustomTextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/SanFranciscoDisplay-Semibold.ttf</item>
+    </style>
+
+    <style name="CustomTextAppearance.SanFran.Regular" parent="CustomTextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/SanFranciscoDisplay-Regular.ttf</item>
+    </style>
+
+    <style name="CustomTextAppearance.DisplayMedium" parent="CustomTextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/SanFranciscoDisplay-Medium.ttf</item>
+    </style>
+
+    <style name="CustomTextAppearance.SanFranciscoDisplayLight" parent="CustomTextAppearance">
+        <!-- Custom Attr-->
+        <item name="fontPath">fonts/SanFranciscoDisplay-Light.ttf</item>
+    </style>
+    <!--Custom light text appearance-->
+    <style name="CustomTextAppearance.Light" parent="CustomTextAppearance">
+        <item name="fontPath">fonts/Dosis-Light.ttf</item>
+    </style>
+
+    <style name="CustomTextAppearance.LatoBold" parent="CustomTextAppearance">
+        <item name="fontPath">fonts/Lato-Bold.ttf</item>
+    </style>
+
+    <style name="CustomTextAppearance.LatoLight" parent="CustomTextAppearance">
+        <item name="fontPath">fonts/Lato-Regular.ttf</item>
+    </style>
+
+    <style name="CustomTextAppearance.LatoMedium" parent="CustomTextAppearance">
+        <item name="fontPath">fonts/Lato-Medium.ttf</item>
+    </style>
+
+    <style name="CustomTextAppearance.LatoSemiBold" parent="CustomTextAppearance">
+        <item name="fontPath">fonts/Lato-Regular.ttf</item>
+    </style>
+
+
+    <style name="primary_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/button_selector_primary_color</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/font_xlarge</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+
+    <style name="TextViewStyle">
+        <item name="android:textAppearance">@style/CustomTextAppearance.SanFranciscoDisplayLight
+        </item>
+        <item name="android:textColor">@color/color_normal_text</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+    </style>
+
+    <style name="EditTextStyle">
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance.SanFranciscoDisplayLight
+        </item>
+        <item name="android:textColor">@color/color_normal_text</item>
+        <item name="android:layout_height">@dimen/spacing_xxlarge</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColorHint">@color/color_hint_text</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_height">@dimen/button_height_large</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/selector_ripple_blue_radius</item>
+        <item name="android:textColor">@drawable/selector_white_text</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance.LatoBold</item>
+
+    </style>
+
+    <style name="ButtonStyleAccept">
+        <item name="android:layout_height">@dimen/button_height_large</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">@dimen/spacing_xtiny</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/selector_accept_btn</item>
+        <item name="android:textColor">@drawable/selector_white_text</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance.LatoBold</item>
+
+    </style>
+
+    <style name="ButtonStyleReject">
+        <item name="android:layout_height">@dimen/button_height_large</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_margin">@dimen/spacing_xtiny</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:background">@drawable/selector_reject_btn</item>
+        <item name="android:textColor">@drawable/selector_white_text</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance.LatoBold</item>
+
+    </style>
+
+    <style name="OtpEditTextStyle">
+        <item name="android:textColor">@color/color_sky_blue</item>
+        <item name="android:layout_height">@dimen/spacing_xxlarge</item>
+        <item name="android:layout_width">@dimen/spacing_xxlarge</item>
+        <item name="android:layout_margin">@dimen/activity_horizontal_margin</item>
+        <item name="android:background">@drawable/border_edit_text</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+        <item name="android:inputType">number</item>
+    </style>
+
+
+    <style name="drawerTextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance.LatoLight</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">@dimen/spacing_xxlarge</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:background">@drawable/drawer_item_selector</item>
+        <item name="android:textColor">@drawable/drawer_menu_color_selector</item>
+        <item name="android:paddingStart">@dimen/spacing_medium</item>
+
+
+    </style>
+
+    <style name="EditProfileTextStyle">
+        <item name="android:layout_marginTop">@dimen/margin_medium</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">@color/color_normal_text</item>
+        <item name="android:layout_height">@dimen/spacing_xxlarge</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/border_edit_text</item>
+        <item name="android:textColorHint">@color/color_hint_text</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:inputType">textCapWords|textNoSuggestions</item>
+        <item name="android:padding">@dimen/padding_normal</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+
+    <style name="myProfileTextViews">
+        <item name="android:textAppearance">@style/CustomTextAppearance.SanFranciscoDisplayLight
+        </item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/margin_normal</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:layout_marginTop">@dimen/margin_small</item>
+    </style>
+    <!--</style>-->
+    <style name="CardDetilTextViews">
+        <item name="android:textAppearance">@style/CustomTextAppearance.DisplayMedium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="MakeDonationsSemiBoldTextViews">
+        <item name="android:textAppearance">@style/CustomTextAppearance.SemiBold</item>
+        <item name="android:textColor">@color/color_dark_text</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="MakeDonationsRegularTextViews">
+        <item name="android:textAppearance">@style/CustomTextAppearance.SanFran.Regular</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_dark_text</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="ContatcUsRegularTextViews">
+        <item name="android:textAppearance">@style/CustomTextAppearance.SanFran.Regular</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:layout_marginStart">@dimen/margin_xlarge</item>
+        <item name="android:textColor">@color/color_dark_text</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="ConatctUsSemiBoldTextViews">
+        <item name="android:layout_marginStart">@dimen/margin_xlarge</item>
+        <item name="android:textSize">@dimen/font_large</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance.SemiBold</item>
+        <item name="android:textColor">@color/color_dark_text</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="FaqTextViews">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:layout_marginTop">@dimen/margin_medium</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/border_edit_text</item>
+        <item name="android:padding">@dimen/padding_large</item>
+        <item name="android:textAppearance">@style/CustomTextAppearance.DisplayMedium</item>
+
+    </style>
+
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/color_sky_blue</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/color_red
+        </item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/color_red
+        </item>
+    </style>
+
+
+    <style name="MySeekBar" parent="Theme.AppCompat.Light">
+        <item name="android:progressBackgroundTint">#f4511e</item>
+        <item name="android:progressTint">#388e3c</item>
+        <item name="android:colorControlActivated">#c51162</item>
+        <item name="android:thumbTint">#008bb2</item>
+    </style>
+
+
+    </resources>
+
